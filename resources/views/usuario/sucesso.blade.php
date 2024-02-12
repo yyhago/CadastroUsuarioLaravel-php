@@ -1,5 +1,3 @@
-@extends('layouts.app')
+<h1>{{ $fulano }} foi cadastrado com sucesso!</h1>
 
-@section('content')
-<h1>Usuário cadastrado com sucesso!</h1>
-@endsection
+<a href="{{ route('home') }}">Voltar</a>
