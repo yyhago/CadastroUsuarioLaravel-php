@@ -37,6 +37,8 @@
         @endforeach
       @endif
     </div>
+    
+<hr>
 
     <div class="btn">
       <button type="submit">Salvar</button>

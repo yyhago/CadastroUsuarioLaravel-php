@@ -12,7 +12,7 @@
     <img src="{{ asset('img/logolaravel.png') }}" alt="Laravel" />
     <h2>Cadastro de Usuários</h2>
   </div>
-
+  <h3>Olá, que tal se cadastrar?</h3>
   <div class="container">
     @yield('conteudo')
   </div>

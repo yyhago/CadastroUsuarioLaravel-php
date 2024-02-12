@@ -13,7 +13,7 @@ html,body{
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  background-color: rgb(48, 47, 47);
+  background-color: rgb(58, 57, 57);
 }
 
 .logo h2{
@@ -22,6 +22,51 @@ html,body{
 }
 
 img{
-  width: 150px;
-  height: 120px;
+  max-width:200px;
+  max-height:120px;
+  width: auto;
+  height: auto;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+  width: 100%;
+}
+
+.field{
+  padding-bottom: 4%;
+}
+
+.field label{
+  font-size: 20px;
+}
+
+.field input{
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}
+
+.btn button{
+  margin-left: 60px;
+  width: 60%;
+  margin-top:  5%;
+  color: #fff;
+  background-color: rgb(61, 60, 60);
+}
+
+p{
+  text-align: center;
+  padding-top: 20%;
 }
